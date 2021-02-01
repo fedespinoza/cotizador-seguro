@@ -98,10 +98,13 @@ UI.prototype.mostrarResultado = (total, seguro) => {
     switch(marca){
         case '1':
             textoMarca = 'Americano';
+            break;
         case '2':
             textoMarca = 'Asiatico';
+            break;
         case '3':
             textoMarca = 'Europeo';
+            break;
         default:
             break;
     }
